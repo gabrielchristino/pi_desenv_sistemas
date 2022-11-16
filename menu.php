@@ -1,17 +1,17 @@
 <div class="rodape">
-    <button class="botaoMenu" onclick="location.href='/index'">
-        <img src="./botaohome.svg" alt="">
+    <button class="botaoMenu" onclick="location.href='/index.php'">
+        <img src="./images/botaohome.svg" alt="">
     </button>
-    <button class="botaoMenu" onclick="location.href='/buscar'">
-        <img src="./botaolupa2.svg" alt="">
+    <button class="botaoMenu" onclick="location.href='/buscar.php'">
+        <img src="./images/botaolupa2.svg" alt="">
     </button>
-    <button class="botaoMenu" onclick="location.href='/error404'">
-        <img src="./botaoanunciar2.svg" alt="">
+    <button class="botaoMenu" onclick="location.href='/error404.php'">
+        <img src="./images/botaoanunciar2.svg" alt="">
     </button>
-    <button class="botaoMenu" onclick="location.href='/error404'">
-        <img src="./botaocalendario.svg" alt="">
+    <button class="botaoMenu" onclick="location.href='/error404.php'">
+        <img src="./images/botaocalendario.svg" alt="">
     </button>
-    <button class="botaoMenu" onclick="location.href='/error404'">
-        <img src="./botaoperfil.svg" alt="">
+    <button class="botaoMenu" onclick="location.href='/error404.php'">
+        <img src="./images/botaoperfil.svg" alt="">
     </button>
 </div>

@@ -18,15 +18,15 @@ include('cabecalho.php');
             <form  method="post">
             <div class="caixaPesquisa">
             <input type="text" id="localizacao" name="localizacao" class="pesquisaCidade" placeholder="Qual Municipio-UF de retirada do veiculo?">
-            <img src="./iconepesquisa.svg" alt="">
+            <img src="./images/iconepesquisa.svg" alt="">
             </div>
             <div class="botoesBuscar">
                     <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="BuscarVeiculo" onclick="alert('Pesquisando um veículo...')">
-                        <img src="./botaocarro.svg" alt="">
+                        <img src="./images/botaocarro.svg" alt="">
                         <p>Carros e Utilitários</p>
                     </button>
                     <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="BuscarVeiculo" onclick="alert('Pesquisando um veículo...')">
-                        <img src="./botaomoto.svg" alt="">
+                        <img src="./images/botaomoto.svg" alt="">
                         <p>Motos</p>
                     </button>
                 </div>

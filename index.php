@@ -37,10 +37,6 @@
         } else
         if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/index') {
             header('Location: home.php');
-        } else if ($_SERVER['REQUEST_URI'] == '/buscar') {
-            header('Location: buscar.php');
-        } else {
-            header('Location: error404.php');
         }
     }
     ?>

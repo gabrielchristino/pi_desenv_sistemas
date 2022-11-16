@@ -11,5 +11,5 @@ Gabriel Eugenio de Oliveira<br>
 # Como acessar?
 Na tela de login, utilizar o usuário **usuario@gmail.com** e a senha **12345**
 <br>
-[<img src="./telaLogin.png" width="100"/>](./telaLogin.png)
+[<img src="./images/telaLogin.png" width="100"/>](./telaLogin.png)
 As informações estão "mokadas" no código, não há uma conexão real com um banco de dados.
