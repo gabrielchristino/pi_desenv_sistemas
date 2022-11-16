@@ -16,8 +16,8 @@
                 <input type="text" id="login" name="login" placeholder="E-mail">
                 <input type="password" id="login" name="senha" placeholder="Senha" >
                 <input type="submit" id="submit" name="acao" value="Acessar">
+                <a class="link-cadastro" href>Primeiro Acesso?<br>Clique aqui para Criar uma conta</a>
             </form>
-            <a class="link-cadastro" href>Primeiro Acesso. Clique aqui para Criar uma conta</a>
         </div>
         <div class="rodape">
             <p class="rodape-p">BRASIL</p>

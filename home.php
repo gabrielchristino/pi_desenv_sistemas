@@ -4,8 +4,8 @@ include('cabecalho.php');
 echo '<h4 class="cabecalhoHome">Bem vindo ' . $_SESSION['login'] . '</h4>';
 ?>
 <div class="botoesInicial">
-    <button class="botaoInicial">
-        <img src="./images/botaocarro.svg" alt="">
+    <button class="botaoInicial" onclick="location.href='/buscar'">
+        <img src="./images/botaolupa.svg" alt="">
         <p>Busco Veículos para alugar</p>
     </button>
     <button class="botaoInicial">
@@ -13,6 +13,3 @@ echo '<h4 class="cabecalhoHome">Bem vindo ' . $_SESSION['login'] . '</h4>';
         <p>Quero anunciar meu veículo para locação!</p>
     </button>
 </div>
-<?php
-include('menu.php');
-?>

@@ -34,7 +34,12 @@
                 session_destroy();
                 header('Location: index.php');
             }
-            include('home.php');
+            if($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/index' ) {
+                include('home.php');
+            } else if ($_SERVER['REQUEST_URI'] == '/buscar') {
+                include('buscar.php');
+            }
+            include('menu.php');
        }
     ?>
 </body>
