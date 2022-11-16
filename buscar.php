@@ -10,11 +10,11 @@ include('cabecalho.php');
             <img src="./images/iconepesquisa.svg" alt="">
             </div>
             <div class="botoesBuscar">
-                    <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="acao">
+                    <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="BuscarVeiculo" onclick="alert('Pesquisando um veículo...')">
                         <img src="./images/botaocarro.svg" alt="">
                         <p>Carros e Utilitários</p>
                     </button>
-                    <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="acao">
+                    <button class="botaoInicial" type="submit" id="submitBuscaVeiculo" name="BuscarVeiculo" onclick="alert('Pesquisando um veículo...')">
                         <img src="./images/botaomoto.svg" alt="">
                         <p>Motos</p>
                     </button>
