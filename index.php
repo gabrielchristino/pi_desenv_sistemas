@@ -30,17 +30,17 @@
 
         include('login.php');
     } else {
-        if (isset($_GET['logout'])) {
+        if ($_SERVER['REQUEST_URI'] == '/logout') {
             unset($_SESSION['login']);
             session_destroy();
             header('Location: index.php');
         }
         if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/index') {
-            include('home.php');
+            header('Location: home.php');
         } else if ($_SERVER['REQUEST_URI'] == '/buscar') {
-            include('buscar.php');
+            header('Location: buscar.php');
         } else {
-            include('error404.php');
+            header('Location: error404.php');
         }
         include('menu.php');
     }

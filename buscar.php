@@ -1,5 +1,5 @@
 <?php
-echo '<a class="btnSair" href="?logout">sair</a>';
+echo '<a class="btnSair" href="/logout">sair</a>';
 include('cabecalho.php');
 ?>
 <h2>Buscar veículos</h2>
@@ -21,3 +21,6 @@ include('cabecalho.php');
                 </div>
             </form>
         </div>
+<?php
+include('menu.php');
+?>

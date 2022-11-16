@@ -1,5 +1,5 @@
 <?php
-echo '<a class="btnSair" href="?logout">sair</a>';
+echo '<a class="btnSair" href="/logout">sair</a>';
 include('cabecalho.php');
 echo '<h4 class="cabecalhoHome">Bem vindo ' . $_SESSION['login'] . '</h4>';
 ?>
@@ -13,3 +13,7 @@ echo '<h4 class="cabecalhoHome">Bem vindo ' . $_SESSION['login'] . '</h4>';
         <p>Quero anunciar meu veículo para locação!</p>
     </button>
 </div>
+
+<?php
+include('menu.php');
+?>
