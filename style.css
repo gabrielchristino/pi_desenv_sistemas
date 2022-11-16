@@ -57,3 +57,46 @@ form{
     justify-content: center;
     border-top: 2px solid #4dd1b0;
 }
+.btnSair {
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.cabecalhoHome {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #D4CEBC;
+    border-radius: 8px;
+}
+.botoesInicial {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.botoesInicial .botaoInicial {
+    width: 30%;
+    min-width: 130px;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+}
+.botoesInicial .botaoInicial:hover {
+    background-color: #D4CEBC;
+}
+.botaoMenu {
+    width: 20%;
+    border-radius: 8px;
+    background-color: transparent;
+    border: none;
+}
+.botaoMenu:hover {
+    background-color: #D4CEBC;
+}
+.botaoMenu img {
+    width: 90%;
+}
