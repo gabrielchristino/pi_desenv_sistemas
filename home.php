@@ -10,7 +10,7 @@
 </head>
 
 <?php
-echo '<a class="btnSair" href="/logout">sair</a>';
+echo '<a class="btnSair" href="/logout.php">sair</a>';
 include('cabecalho.php');
 echo '<h4 class="cabecalhoHome">Bem vindo ' . $_SESSION['login'] . '</h4>';
 ?>

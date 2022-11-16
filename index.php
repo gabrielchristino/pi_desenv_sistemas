@@ -30,7 +30,7 @@
 
         include('login.php');
     } else {
-        if ($_SERVER['REQUEST_URI'] == '/logout') {
+        if ($_SERVER['REQUEST_URI'] == '/logout.php') {
             unset($_SESSION['login']);
             session_destroy();
             header('Location: index.php');
