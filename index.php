@@ -34,7 +34,7 @@
             unset($_SESSION['login']);
             session_destroy();
             header('Location: index.php');
-        }
+        } else
         if ($_SERVER['REQUEST_URI'] == '/' || $_SERVER['REQUEST_URI'] == '/index.php' || $_SERVER['REQUEST_URI'] == '/index') {
             header('Location: home.php');
         } else if ($_SERVER['REQUEST_URI'] == '/buscar') {
@@ -42,7 +42,6 @@
         } else {
             header('Location: error404.php');
         }
-        include('menu.php');
     }
     ?>
 </body>
