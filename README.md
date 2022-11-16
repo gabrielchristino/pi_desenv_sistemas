@@ -12,3 +12,4 @@ Gabriel Eugenio de Oliveira
 Na tela de login, utilizar o usuário **usuario@gmail.com** e a senha **12345**
 <br>
 [<img src="./images/telaLogin.png" width="100"/>](./images/telaLogin.png)
+As informações estão "mokadas" no código, não há uma conexão real com um banco de dados.
