@@ -100,3 +100,6 @@ form{
 .botaoMenu img {
     width: 90%;
 }
+button {
+    cursor: pointer;
+}
