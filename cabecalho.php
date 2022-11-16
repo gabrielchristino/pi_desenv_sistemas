@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="container1">
-            <img class="imageLogo" src="./images/chaves.png" alt="">
+            <img class="imageLogo" src="./chaves.png" alt="">
             <h1>Veículo Fácil 123</h1>
         </div>
     </body>
