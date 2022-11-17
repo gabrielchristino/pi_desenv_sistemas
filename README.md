@@ -1,7 +1,7 @@
 # Projeto Integrador
 Projeto integrador da matéria 2203-PROJETO INTEGRADOR: DESENVOLVIMENTO DE SISTEMAS ORIENTADO A DISPOSITIVOS MÓVEIS E BASEADOS NA WEB
 
-# Integrantes do Grupo 17:
+# Integrantes do Grupo 20:
 Fabricio Macedo Crispim,<br>
 Aïcha Abibatou Souza Gueye,<br>
 Daniel dos Anjos Veleda,<br>
