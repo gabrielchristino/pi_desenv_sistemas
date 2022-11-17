@@ -11,7 +11,9 @@ Gabriel Eugenio de Oliveira<br>
 # Como acessar?
 Na tela de login, utilizar o usuário **usuario@gmail.com** e a senha **12345**
 <br>
-[<img src="./images/telaLogin.png" width="100"/>](./telaLogin.png)
+[<img src="./images/telaLogin.png" width="100"/>](./images/telaLogin.png)
+[<img src="./images/telaInicial.png" width="100"/>](./images/telaInicial.png)
+[<img src="./images/telaPesquisa.png" width="100"/>](./images/telaPesquisa.png)
 <br>
 <br>
 Acessar o [link](https://veiculofacil123.herokuapp.com) para visualizar o projeto funcionando
