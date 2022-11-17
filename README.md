@@ -17,3 +17,6 @@ Na tela de login, utilizar o usuário **usuario@gmail.com** e a senha **12345**
 Acessar o [link](https://veiculofacil123.herokuapp.com) para visualizar o projeto funcionando
 <br>
 **As informações estão "mokadas" no código, não há uma conexão real com um banco de dados.**
+
+# Gravação do web aplicativo funcionando
+Acessar o [link](https://youtube.com/shorts/No79etr28uE?feature=share)
